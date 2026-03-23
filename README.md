@@ -1,6 +1,7 @@
-# LSASS Dump on Windows 11
+# LSASS evasion technique for W11
 
 Dumps LSASS memory from a remote Windows 11 host over SMB using a **WerFaultSecure.exe + WSASS.exe** DLL-sideload technique to bypass Windows Defender.
+
 ## What gets dumped
 
 LSASS (Local Security Authority Subsystem Service) holds in-memory credentials for all logged-on users:
